@@ -1,0 +1,79 @@
+h1, div, h2, p, form, ul, li, a, input, button, span {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	padding: 0;
+	margin: 0;
+	font-size: 15px;
+}
+h1, h2, h3, h4 {
+	margin: 0px;
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+.container {
+	width: 1170px;
+	margin: 0 auto;
+}
+
+.header {
+	
+background: rgba(77,189,254,1);
+background: -moz-linear-gradient(-45deg, rgba(77,189,254,1) 0%, rgba(55,144,217,1) 100%);
+background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(77,189,254,1)), color-stop(100%, rgba(55,144,217,1)));
+background: -webkit-linear-gradient(-45deg, rgba(77,189,254,1) 0%, rgba(55,144,217,1) 100%);
+background: -o-linear-gradient(-45deg, rgba(77,189,254,1) 0%, rgba(55,144,217,1) 100%);
+background: -ms-linear-gradient(-45deg, rgba(77,189,254,1) 0%, rgba(55,144,217,1) 100%);
+background: linear-gradient(135deg, rgba(77,189,254,1) 0%, rgba(55,144,217,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4dbdfe', endColorstr='#3790d9', GradientType=1 );
+padding-top: 100px;
+padding-bottom: 144px;
+color: #fff;
+}
+
+.wrapper {
+	display: flex;
+	justify-content: space-between;
+}
+
+.offer {
+	margin-top: 148px;
+	width: 500px;
+}
+
+.title {
+	font-size: 37px;
+}
+
+.title span {
+	font-size: 59px;
+}
+
+.intro {
+	font-size: 16px;
+	margin-bottom: 42px;
+	width: 420px;
+}
+
+p {
+	line-height: 1.6em;
+}
+
+.btn {
+	font-family: 'Montserrat';
+	font-weight: bold;
+	color: black;
+	background-color: #ffd429;
+	display: block;
+	width: 221px;
+	padding: 20px 0px;
+	text-align: center;
+	text-decoration: none; 
+}
+
+.start {
+	margin-top: 37px;
+}
