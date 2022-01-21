@@ -1,3 +1,3 @@
-# html.github.io
+# github.io
 https://mrmariany.github.io/project_1/
   
